@@ -8,7 +8,7 @@ This project involves transferring banking data from an OLTP (Online Transaction
 * Reporting & Visualization: Use Power BI to generate insightful reports and visualize trends in the banking data.
 * Key Metrics: Analyze account balances, loan statuses, customer details, branch performance, and more using advanced visualizations.
 
-##bComponents
+## Components
 ### 1.SSIS (SQL Server Integration Services)
 
 * Source System (OLTP): Banking data from an OLTP database.
