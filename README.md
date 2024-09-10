@@ -9,12 +9,12 @@ This project involves transferring banking data from an OLTP (Online Transaction
 * Key Metrics: Analyze account balances, loan statuses, customer details, branch performance, and more using advanced visualizations.
 
 ## Components
-### 1.SSIS (SQL Server Integration Services)
+### SSIS (SQL Server Integration Services)
 
 * Source System (OLTP): Banking data from an OLTP database.
 * Target System (DWH): Data Warehouse schema to store historical data, which facilitates analytical reporting.
 * ETL Process: SSIS package designed to extract data from OLTP, transform it as necessary (e.g., data cleansing, type conversion), and load it into the DWH.
-### 2.Power BI
+### Power BI
 
 * Data Connection: Power BI connects to the DWH to retrieve data.
 * Reports & Dashboards: Custom visualizations, charts, and graphs built to provide insights into various aspects of the banking data such as:
@@ -23,7 +23,7 @@ This project involves transferring banking data from an OLTP (Online Transaction
     * Branch performance
     * Transaction trends
 ## Steps to Run the Project
-### 1.SSIS (ETL Process)
+### SSIS (ETL Process)
 1.Set up OLTP and DWH Databases:
 * Create the OLTP and DWH schema in SQL Server.
 * Populate the OLTP database with sample banking data.
@@ -35,7 +35,7 @@ This project involves transferring banking data from an OLTP (Online Transaction
 3.Execute SSIS Package:
 * Run the SSIS package to transfer data from the OLTP system to the DWH.
 
-### 2.Power BI (Reporting & Visualization)
+### Power BI (Reporting & Visualization)
 1.Connect to the DWH:
 * Open Power BI and establish a connection to the SQL Server DWH.
 
