@@ -18,7 +18,7 @@ This project involves transferring banking data from an OLTP (Online Transaction
 
 * Data Connection: Power BI connects to the DWH to retrieve data.
 * Reports & Dashboards: Custom visualizations, charts, and graphs built to provide insights into various aspects of the banking data such as:
-* Account details
+    * Account details
     * Loan statuses
     * Branch performance
     * Transaction trends
