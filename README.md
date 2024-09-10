@@ -1,4 +1,4 @@
-# Banking ETL Workflow with SSIS
+# Banking Data Transfer from OLTP to DWH with SSIS and Power BI Reporting
 ## Project Overview
 This project involves transferring banking data from an OLTP (Online Transaction Processing) system to a DWH (Data Warehouse) in SQL Server using SQL Server Integration Services (SSIS). Once the data is available in the DWH, Power BI is used to create reports, find insights, and visualize the data for enhanced decision-making.
 
